@@ -1,0 +1,146 @@
+body {
+  font-family: system-ui;
+}
+
+.header {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  height: 50px;
+  padding: 10px;
+  border-bottom: thin solid gainsboro;
+}
+.header div {
+  font-size: 30px;
+  padding: 10px;
+}
+
+main {
+  color: white;
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+  height: 600px;
+}
+main .body-outside {
+  height: inherit;
+  background-color: rgb(0, 98, 102);
+  border-radius: 5px;
+}
+main .body-outside .elevatorBody {
+  height: inherit;
+  margin: 10px;
+}
+main .body-outside .elevatorBody .elevators {
+  display: flex;
+}
+main .body-outside .elevatorBody .elevators .elepath {
+  height: 530px;
+  margin: 10px;
+  width: 25%;
+  background-color: rgb(177, 226, 255);
+}
+main .body-outside .elevatorBody .elevators .elepath div {
+  height: inherit;
+  width: 60%;
+  margin: auto;
+}
+main .body-outside .elevatorBody .elevators .elepath div div {
+  width: 100%;
+}
+main .body-outside .elevatorBody .elevators .elepath div div div {
+  text-align: center;
+  position: relative;
+  top: 424px;
+  height: 106px;
+  background-color: rgb(113, 121, 126);
+}
+main .body-outside .elevatorBody .elevators .elepath div div .eleoff {
+  border: thin solid red;
+}
+main .body-outside .elevatorBody .elevators .up-down-buttons {
+  width: 25%;
+  margin: 10px;
+  margin-left: 0;
+  height: 530px;
+  text-align: left;
+}
+main .body-outside .elevatorBody .elevators .up-down-buttons .btnupDown {
+  display: flex;
+  height: 86px;
+  padding: 10px;
+  padding-left: 0;
+  align-items: center;
+}
+main .body-outside .elevatorBody .elevators .up-down-buttons .btnupDown div,
+main .body-outside .elevatorBody .elevators .up-down-buttons .btnupDown button {
+  margin: 5px;
+}
+main .body-outside .elevatorBody .elevators .up-down-buttons .btnupDown div {
+  border: none;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(38, 37, 61);
+  color: white;
+  text-align: center;
+}
+main .body-outside .elevatorBody .elevators .up-down-buttons .btnupDown div label {
+  vertical-align: sub;
+  font-size: 20px;
+}
+main .body-outside .elevatorBody .elevators .up-down-buttons .btnupDown button {
+  background-color: rgb(38, 37, 61);
+  border: none;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  color: white;
+}
+main .body-outside .elevatorBody .elevators .up-down-buttons .btnupDown button i {
+  vertical-align: -webkit-baseline-middle;
+  font-size: 20px;
+}
+main .body-outside .elevatorBody .elevators .up-down-buttons .btnupDown button:hover {
+  cursor: pointer;
+  background-color: rgb(177, 226, 255);
+  color: black;
+}
+main .body-outside .elevatorBody .on-off-buttos {
+  text-align: center;
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+main .body-outside .elevatorBody .on-off-buttos .btnwidth {
+  width: 25%;
+}
+main .body-outside .elevatorBody .on-off-buttos .btnwidth .offbtn {
+  width: 35px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 14px;
+  border-radius: 20px;
+  padding: 2px;
+  transition-duration: 0.3s;
+}
+main .body-outside .elevatorBody .on-off-buttos .btnwidth .offbtn .dot {
+  display: flex;
+  height: 13px;
+  border-radius: 50%;
+  width: 13px;
+  background-color: rgb(191, 191, 191);
+  transition-duration: 0.3s;
+}
+main .body-outside .elevatorBody .on-off-buttos .btnwidth .offbtn:hover {
+  cursor: pointer;
+}
+main .body-outside .elevatorBody .on-off-buttos .btnwidth .onbtn {
+  justify-content: right;
+  background-color: rgb(13, 110, 253);
+}
+main .body-outside .elevatorBody .on-off-buttos .btnwidth .onbtn .dot {
+  background-color: white;
+}/*# sourceMappingURL=main.css.map */

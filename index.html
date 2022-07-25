@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+    <title>Elevator</title>
+</head>
+
+<body>
+    <div>
+        <header class="header">
+            <div>Elevator System</div>
+        </header>
+        <main>
+            <div class="body-outside">
+                <div class="elevatorBody">
+                    <div class="elevators">
+                        <div class="elevator1 elepath">
+                            <div>
+                                <div>
+                                    <div id="elevator1" style="top: 424px;">1</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elevator2 elepath">
+                            <div>
+                                <div>
+                                    <div id="elevator2" style="top: 424px;">1</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elevator3 elepath">
+                            <div>
+                                <div>
+                                    <div id="elevator3" style="top: 424px;">1</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="up-down-buttons">
+                            <div class="flor-button-5 btnupDown">
+                                <div><label>5</label></div>
+                                <button id="5D">
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <div class="flor-button-4 btnupDown">
+                                <div><label>4</label></div>
+                                <button id="4U">
+                                    <i class="fa-solid fa-angle-up"></i>
+                                </button>
+                                <button id="4D">
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <div class="flor-button-3 btnupDown">
+                                <div><label>3</label></div>
+                                <button id="3U">
+                                    <i class="fa-solid fa-angle-up"></i>
+                                </button>
+                                <button id="3D">
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <div class="flor-button-2 btnupDown">
+                                <div><label>2</label></div>
+                                <button id="2U">
+                                    <i class="fa-solid fa-angle-up"></i>
+                                </button>
+                                <button id="2D">
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <div class="flor-button-1 btnupDown">
+                                <div><label>1</label></div>
+                                <button id="1U">
+                                    <i class="fa-solid fa-angle-up"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="on-off-buttos">
+                        <div class="ele-1-on-off btnwidth">
+                            <div id="onoffbtn1" class="offbtn" onclick="offElevator(this)">
+                                <div class="dot"></div>
+                            </div>
+                        </div>
+                        <div class="ele-2-on-off btnwidth">
+                            <div id="onoffbtn2" class="offbtn" onclick="offElevator(this)">
+                                <div class="dot"></div>
+                            </div>
+                        </div>
+                        <div class="ele-3-on-off btnwidth">
+                            <div id="onoffbtn3" class="offbtn" onclick="offElevator(this)">
+                                <div class="dot"></div>
+                            </div>
+                        </div>
+                        <div class="lable-maintenance btnwidth">Maintenance</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+<script type="text/javascript" src="script1.js"></script>
+
+</html>

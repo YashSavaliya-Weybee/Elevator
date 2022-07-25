@@ -1,0 +1,171 @@
+body {
+    font-family: system-ui;
+}
+
+.header {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    height: 50px;
+    padding: 10px;
+    border-bottom: thin solid gainsboro;
+
+    div {
+        font-size: 30px;
+        padding: 10px;
+    }
+}
+
+main {
+    color: white;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    height: 600px;
+
+    .body-outside {
+        height: inherit;
+        background-color: rgb(0, 98, 102);
+        border-radius: 5px;
+
+        .elevatorBody {
+            height: inherit;
+            margin: 10px;
+
+            .elevators {
+                display: flex;
+
+                .elepath {
+                    height: 530px;
+                    margin: 10px;
+                    width: 25%;
+                    background-color: rgb(177, 226, 255);
+
+                    div {
+                        height: inherit;
+                        width: 60%;
+                        margin: auto;
+
+                        div {
+                            width: 100%;
+
+                            div {
+                                text-align: center;
+                                position: relative;
+                                height: 106px;
+                                background-color: rgb(113, 121, 126);
+                            }
+
+                            .eleoff {
+                                border: thin solid red;
+                            }
+                        }
+                    }
+                }
+
+                .up-down-buttons {
+                    width: 25%;
+                    margin: 10px;
+                    margin-left: 0;
+                    height: 530px;
+                    text-align: left;
+
+                    .btnupDown {
+                        display: flex;
+                        height: 86px;
+                        padding: 10px;
+                        padding-left: 0;
+                        align-items: center;
+
+                        div,
+                        button {
+                            margin: 5px;
+                        }
+
+                        div {
+                            border: none;
+                            border-radius: 50%;
+                            height: 30px;
+                            width: 30px;
+                            background-color: rgb(38, 37, 61);
+                            color: white;
+                            text-align: center;
+
+                            label {
+                                vertical-align: sub;
+                                font-size: 20px;
+                            }
+                        }
+
+                        button {
+                            background-color: rgb(38, 37, 61);
+                            border: none;
+                            border-radius: 50%;
+                            height: 30px;
+                            width: 30px;
+                            color: white;
+
+                            i {
+                                vertical-align: -webkit-baseline-middle;
+                                font-size: 20px;
+                            }
+
+                            &:hover {
+                                cursor: pointer;
+                                background-color: rgb(177, 226, 255);
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .on-off-buttos {
+                text-align: center;
+                display: flex;
+                height: 40px;
+                align-items: center;
+
+                .btnwidth {
+                    width: 25%;
+
+                    .offbtn {
+                        width: 35px;
+                        margin: auto;
+                        display: flex;
+                        align-items: center;
+                        background-color: white;
+                        height: 14px;
+                        border-radius: 20px;
+                        padding: 2px;
+                        transition-duration: 0.3s;
+
+                        .dot {
+                            display: flex;
+                            height: 13px;
+                            border-radius: 50%;
+                            width: 13px;
+                            background-color: rgb(191, 191, 191);
+                            transition-duration: 0.3s;
+                        }
+
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+
+                    .onbtn {
+                        justify-content: right;
+                        background-color: rgb(13, 110, 253);
+
+                        .dot {
+                            background-color: white;
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+}
