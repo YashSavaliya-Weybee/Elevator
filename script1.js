@@ -122,7 +122,6 @@ function chooseElevator(floreReqs) {
 }
 
 function allindex(minDis, distOfAllEle) {
-    debugger
     let occuranceOfMinInd = [0, 0, 0];
     for (let i = 0; i < 3; i++) {
         if (minDis == distOfAllEle[i]) {
